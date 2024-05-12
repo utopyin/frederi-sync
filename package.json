@@ -4,8 +4,12 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
     "@notionhq/client": "^2.2.15",
-    "hono": "^4.3.3"
+    "cloudflare-workers-and-google-oauth": "^2.0.0",
+    "google-auth-library": "^9.9.0",
+    "hono": "^4.3.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240403.0",
